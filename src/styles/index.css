@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{html,body,#root{height:100%}body{@apply font-sans}}
+.gradient-text{@apply bg-clip-text text-transparent;background-image:linear-gradient(90deg,#1f6feb,#00b3ff)}
+.glass{@apply bg-white/60 dark:bg-white/5 backdrop-blur-md border border-black/5 dark:border-white/10 shadow}
+.btn-glow:hover{box-shadow:0 0 0 3px rgba(31,111,235,.35),0 0 28px rgba(31,111,235,.35)}
+canvas.particles{position:fixed;inset:0;z-index:0;pointer-events:none}
+.dark .gridbg{background:linear-gradient(transparent 0,transparent calc(100% - 1px),rgba(0,200,255,.18) calc(100% - 1px)) 0 0/60px 60px,linear-gradient(90deg,transparent 0,transparent calc(100% - 1px),rgba(0,200,255,.18) calc(100% - 1px)) 0 0/60px 60px,radial-gradient(600px 400px at 70% -10%,rgba(0,180,255,.18),transparent 60%),radial-gradient(600px 400px at 0% 110%,rgba(0,120,255,.18),transparent 60%);animation:gridMove 24s linear infinite}
+.tooltip{position:relative}.tooltip:hover::after{content:attr(data-tip);position:absolute;left:50%;transform:translateX(-50%);bottom:110%;white-space:nowrap;@apply px-2 py-1 rounded-md text-xs bg-black text-white dark:bg-white dark:text-black shadow}
