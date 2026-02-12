@@ -1,7 +1,7 @@
 const cards=[
   {title:'DevSync',desc:'A full-stack, local-first Markdown editor featuring real-time synchronization, offline capabilities, and AI-powered writing assistance built with React 19, Node.js, and Google Gemini.',img:'/projects/Devsync.png',url:'https://devsync-md-editor.vercel.app/'},
   {title:'MailFlow',desc:'Developed a scalable email marketing platform using React 19, TypeScript, and Tailwind CSS, featuring a responsive dashboard for real-time campaign analytics using Recharts',img:'/projects/mailflow.png',url:'https://mailflow-bulk-emails.vercel.app/'},
-  {title:'Portfolio Platform',desc:'Reusable templates with animations and theming.',img:'/projects/Portfolio.png',url:'https://siddhantsingh.vercel.app/'}
+  {title:'Portfolio Website',desc:'This portfolio website is a single-page application built with React, utilizing Vite as a build tool for a fast development experience. Styling is handled efficiently with Tailwind CSS, providing a modern and responsive user interface.',img:'/projects/Portfolio.png',url:'https://siddhantsingh.vercel.app/'}
 ]
 export default function Projects(){
   return (<div className="pt-28 min-h-screen">
