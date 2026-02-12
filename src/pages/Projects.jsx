@@ -1,7 +1,7 @@
 const cards=[
-  {title:'Image Compression Website',desc:'Upload, compress, and download images with a clean UI.',img:'/projects/compress.jpg',url:'#'},
-  {title:'Expense Tracker',desc:'Track spending with charts, budgets, and insights.',img:'/projects/expense.jpg',url:'#'},
-  {title:'Portfolio Platform',desc:'Reusable templates with animations and theming.',img:'/projects/portfolio.jpg',url:'#'}
+  {title:'DevSync',desc:'A full-stack, local-first Markdown editor featuring real-time synchronization, offline capabilities, and AI-powered writing assistance built with React 19, Node.js, and Google Gemini.',img:'/projects/Devsync.png',url:'https://devsync-md-editor.vercel.app/'},
+  {title:'MailFlow',desc:'Developed a scalable email marketing platform using React 19, TypeScript, and Tailwind CSS, featuring a responsive dashboard for real-time campaign analytics using Recharts',img:'/projects/mailflow.png',url:'https://mailflow-bulk-emails.vercel.app/'},
+  {title:'Portfolio Platform',desc:'Reusable templates with animations and theming.',img:'/projects/Portfolio.png',url:'https://siddhantsingh.vercel.app/'}
 ]
 export default function Projects(){
   return (<div className="pt-28 min-h-screen">

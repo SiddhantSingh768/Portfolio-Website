@@ -11,7 +11,7 @@ export default function Contact(){
       <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">I keep my email private on the page — use the button below to open your email app and send me a message directly.</p>
       <div className="flex flex-wrap gap-4 mb-10">
         <a href="mailto:siddhantsingh768@gmail.com?subject=Hiring%20Inquiry%20from%20Portfolio" className="px-6 py-3 rounded-xl bg-brand-blue text-white font-semibold hover:scale-[1.03] btn-glow transition-all">✉️ Email Me</a>
-        <a href="/CV.pdf" download className="px-6 py-3 rounded-xl bg-brand-blue text-white font-semibold hover:scale-[1.03] btn-glow transition-all">⬇️ Download CV</a>
+        <a href="/SiddhantSinghCV.pdf" download className="px-6 py-3 rounded-xl bg-brand-blue text-white font-semibold hover:scale-[1.03] btn-glow transition-all">⬇️ Download CV</a>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {socials.map((s,i)=>(<a key={i} href={s.url} target="_blank" className="group glass rounded-2xl p-4 flex items-center justify-center gap-2 hover:translate-y-[-4px] transition-all">

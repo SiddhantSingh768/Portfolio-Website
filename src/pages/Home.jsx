@@ -8,7 +8,7 @@ export default function Home(){
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <Link to="/projects" className="px-6 py-3 rounded-xl bg-brand-blue text-white font-semibold hover:scale-[1.03] btn-glow transition-all">View Projects</Link>
           <Link to="/about" className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:scale-[1.03] btn-glow transition-all">About Me</Link>
-          <a href="/CV.pdf" download className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:scale-[1.03] btn-glow transition-all">⬇️ Download CV</a>
+          <a href="/SiddhantSinghCV.pdf" download className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:scale-[1.03] btn-glow transition-all">⬇️ Download CV</a>
         </div>
       </div>
     </section>
